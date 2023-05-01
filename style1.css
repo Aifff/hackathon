@@ -1,0 +1,133 @@
+.body{position: relative;
+
+background: linear-gradient(180deg, #8F3FDF 0%, rgba(107, 85, 129, 0.24) 100%);
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	line-height: 1.6;
+	font-size: 18px;
+     }
+
+
+.CusTTee {
+
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 400;
+font-size: 105px;
+line-height: 127px;
+
+color: #ffff;
+}
+
+.CusTTee1 {
+
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 8px;
+color: #ffff;
+}
+
+
+.CusTTee2 {
+
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 8px;
+color: #ffff;
+}
+
+.CusTTee3 {
+text-align: right;
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 100;
+font-size: 25px;
+line-height: 8px;
+color: #ffff;
+}
+
+
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#Home {
+  top: 40px;
+  background-color: #04AA6D;
+}
+
+#Explore {
+  top: 100px;
+  background-color: #2196F3;
+}
+
+#Exceptionals {
+  top: 160px;
+  background-color: #f44336;
+}
+
+#Contact {
+  top: 220px;
+  background-color: #555
+}
+
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- FOOTER -->
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover{
+    color: #0000ff;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color:#8a7f63;
+    text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  /*background-color: #f1f1f1;*/
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
