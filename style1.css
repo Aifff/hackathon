@@ -18,16 +18,17 @@ line-height: 127px;
 
 color: #ffff;
 }
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
+.themeswitch{
+position:relative;
+width:40px;
+height:40px;
+background:#242424;
+border-radius:50%;
+cursor:pointer;
+display:flex;
+justify-content:center;
+align-items:center;
 
-.dark-mode {
-  background-color: black;
-  color: white;
 }
 
 .CusTTee1 {
