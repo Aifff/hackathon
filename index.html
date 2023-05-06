@@ -29,6 +29,7 @@
   <a class="nav-item nav-link" href="Design.html" style="color: #ffff">Design</a>
   <a class="nav-item nav-link" href="about-us.html" style="color: #ffff">About Us</a>
   <a class="nav-item nav-link" href="checkout.html" style="color: #ffff">Checkout</a>
+ <button onclick="myFunction()"><i class="fa-sharp fa-solid fa-sun"></i></button>
 </nav>
 
 
@@ -82,6 +83,9 @@
         </div>
     </footer>
 
-   
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}   
 </body>
 </html>
