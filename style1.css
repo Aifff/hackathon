@@ -173,7 +173,7 @@ color: #ffff;
 /* footer styling */
 #footer {
 	padding:100px;
-    background-color:#8a7f63;
+    background-color:transparent;
     text-align: center;
 }
 ul {
