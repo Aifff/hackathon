@@ -172,6 +172,7 @@ color: #ffff;
 }
 /* footer styling */
 #footer {
+	padding:40px;
     background-color:#8a7f63;
     text-align: center;
 }
