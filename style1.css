@@ -17,9 +17,6 @@ background: linear-gradient(180deg, #000000 0%, rgba(104, 65, 143, 0) 100%);
 
 
 
-#darkMode { 
-  cursor: pointer;
-}
 
 .dark-mode {
 background: linear-gradient(180deg, #000000 0%, rgba(104, 65, 143, 0) 100%);
