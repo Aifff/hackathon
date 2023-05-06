@@ -172,9 +172,12 @@ color: #ffff;
 }
 /* footer styling */
 #footer {
-	padding:100px;
+	padding:50px;
     background-color:transparent;
     text-align: center;
+}
+i{
+padding:10px;
 }
 ul {
   list-style-type: none;
