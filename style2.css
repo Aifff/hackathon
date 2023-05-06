@@ -1,11 +1,65 @@
-.body{position: relative;
-
+body {
 background: linear-gradient(180deg, #8F3FDF 0%, rgba(107, 85, 129, 0.24) 100%);
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
 		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 	line-height: 1.6;
+        color: black;
 	font-size: 18px;
-     }
+}
+
+.dark-mode {
+background: linear-gradient(180deg, #000000 0%, rgba(104, 65, 143, 0) 100%);
+  color: white;
+}
+
+
+
+
+
+
+.dark-mode {
+background: linear-gradient(180deg, #000000 0%, rgba(104, 65, 143, 0) 100%);
+  color: white;
+}
+
+#toggle{
+display: none;
+}
+
+.button{
+display: inline-block;
+width: 10px;
+height: 35px;
+background-color:#fff;
+border-radius: 30px;
+position: relative;
+cursor: pointer;
+}
+
+.button::after{
+content: url('./images/sun-live.jpg');
+width: 10px;
+height: 10px; 
+background-color: 1#e03c3c;
+border: 2px solid #fff;
+border-radius: 50%;
+box-shadow: 0 0 5px rgba(0, 0, 0, 25); position: absolute;
+top: -5px;
+left: 0;
+display: grid;
+place-content: center;
+line-height: 0;
+transition: background-color 1s, transform 1s ease-in;
+}
+
+
+#toggle:checked + .button::after{
+content: url('./images/moon-live.jpg');
+width:10px;
+height:10px;
+background-color: #1f257f;
+transform: translatex(50px) rotate(360deg);
+}
 
 
 .CusTTee {
