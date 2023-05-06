@@ -14,20 +14,8 @@ background: linear-gradient(180deg, #000000 0%, rgba(104, 65, 143, 0) 100%);
 }
 
 
-.scene {
-  width: 100vw;
-  height: 100vh;
-  background-color: #f1f1f1;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-}
 
-.scene h1 {
-  font-size: 3rem;
-  filter: invert(50%)
-}
+
 
 #darkMode { 
   cursor: pointer;
