@@ -13,12 +13,6 @@ background: linear-gradient(180deg, #000000 0%, rgba(104, 65, 143, 0) 100%);
   color: white;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-body {
-  font-family: 'Roboto',serif;
-  font-size: 15px;
-}
 
 .scene {
   width: 100vw;
